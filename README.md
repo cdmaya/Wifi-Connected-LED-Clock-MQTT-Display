@@ -6,12 +6,12 @@ Project details also shared in my blog : https://www.chindemax.com/2023/01/02/wi
 
 For some time, I wanted to buy several digital clocks with the following attributes
 
-Wouldn’t require setting time manually – NOT HAVING THIS ABILITY THIS IS THE DEALBREAKER !!! – IT MUST fetch time from an NTP server and set the internal clock accordingly and will sync with the NTP server periodically.
-Would need to be plugged in to main power (USB), and it must be able to run for several hours with a rechargeable battery in case the main power gets off.
-Daylight saving time changes should be handled automatically (Twice a year)
-It should display custom messages pushed through MQTT (Weather or other alerts)
-It should display a message if the network connectivity is gone or if the NTP server is not accessible. In these cases, it must still show the time using the internal clock, until the network/NTP connection is reset, and time can be synced with NTP server successfully once the connectivity is restored.
-It must have large LED digits that are conformably visible from the other end of the room.
+1. Wouldn’t require setting time manually – NOT HAVING THIS ABILITY THIS IS THE DEALBREAKER !!! – IT MUST fetch time from an NTP server and set the internal clock accordingly and will sync with the NTP server periodically.
+2. Would need to be plugged in to main power (USB), and it must be able to run for several hours with a rechargeable battery in case the main power gets off.
+3. Daylight saving time changes should be handled automatically (Twice a year)
+4. It should display custom messages pushed through MQTT (Weather or other alerts)
+5. It should display a message if the network connectivity is gone or if the NTP server is not accessible. In these cases, it must still show the time using the internal clock, until the network/NTP connection is reset, and time can be synced with NTP server successfully once the connectivity is restored.
+6. It must have large LED digits that are conformably visible from the other end of the room.
 
 I researched for some time if I could buy a digital clock with at least most of the above attributes (No 1 above is a MUST) but I couldn’t find any on Amazon, AliExpress or Banggood for a reasonable price.
 
