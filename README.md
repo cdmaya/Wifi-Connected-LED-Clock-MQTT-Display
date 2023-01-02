@@ -1,5 +1,7 @@
 # Wifi-Connected-LED-Clock-MQTT-Display
 
+![10](https://user-images.githubusercontent.com/51185952/210281102-dbef34e3-bebc-47a2-94c7-a309b42a4639.jpg)
+
 Project details also shared in my blog : https://www.chindemax.com/2023/01/02/wifi-connected-led-clock-mqtt-display/
 
 For some time, I wanted to buy several digital clocks with the following attributes
@@ -19,11 +21,11 @@ So decided to build the LED Clock/Display uisng Micropython.
 
 There are the components used:
 
-2 x 4X8X8 MAX7291 LED Matrix Displays
-Wemos D1 mini (ESP8266)
-TP4056 Charging Modile
-7V Li-ion 18650 Rechargeable battery and holder.
-Push Button
+1. 2 x 4X8X8 MAX7291 LED Matrix Displays
+2. Wemos D1 mini (ESP8266)
+3. TP4056 Charging Modile
+4. 3.7V Li-ion 18650 Rechargeable battery and holder.
+5. Push Button
 
 Circuit Diagram:
 
@@ -42,6 +44,18 @@ https://github.com/mcauser/micropython-max7219/blob/master/max7219.py
 "umqttsimple.py" library file from Rui Santos's Github is used in this script.
 
 https://github.com/RuiSantosdotme/ESP-MicroPython/blob/master/code/MQTT/umqttsimple.py
+
+Building the circuit and casing :
+![1](https://user-images.githubusercontent.com/51185952/210281009-30eb4077-5f7c-4246-93a5-9565e36f1c89.jpg)
+![2](https://user-images.githubusercontent.com/51185952/210281019-2dd4b813-a928-458c-af63-83a4794fe4e8.jpg)
+![3](https://user-images.githubusercontent.com/51185952/210281026-3846116f-d294-49cd-b632-dc54f0106dc7.jpg)
+![4](https://user-images.githubusercontent.com/51185952/210281033-725e7f84-4c96-447d-a653-791203bec12d.jpg)
+![5](https://user-images.githubusercontent.com/51185952/210281047-31e5e967-60fd-4029-8230-b7da2d59f15a.jpg)
+![6](https://user-images.githubusercontent.com/51185952/210281059-6483dafb-72f7-437e-939f-211621a82f59.jpg)
+![7](https://user-images.githubusercontent.com/51185952/210281066-d9fa4d18-e049-47d6-8f4a-8c61bd857cf2.jpg)
+![8](https://user-images.githubusercontent.com/51185952/210281072-e7a4c67a-187f-434a-af2f-209d40eb92fa.jpg)
+![9](https://user-images.githubusercontent.com/51185952/210281076-9a574e1d-d20a-4398-8dde-cafe0cfe8205.jpg)
+![11](https://user-images.githubusercontent.com/51185952/210281086-78cc2c9a-faf0-4217-944a-89d9f11d8dad.jpg)
 
 At a high level the python script works as below:
 
