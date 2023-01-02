@@ -4,16 +4,14 @@
 # 2.	"umqttsimple.py" library file from Rui Santos's Github is used in this script.
 # https://github.com/RuiSantosdotme/ESP-MicroPython/blob/master/code/MQTT/umqttsimple.py
 #
-# At a high level the script is doing the below tasks.
-# - At startup fetches the time from the specified NTP server (I have a local NTP server, else we can give the IP Adress of a public NTP server as well) and updates it's internal real time clock (RTC) and displays time
-# - It also subscribes to the given MQTT topic
-# - Evey 10 minutes syncs the internal real time clock (RTC) with the NTP server.
-# - If the Wifi, NTP or MQTT connections are failed, there will be an indication on the LED Matrix.
-# - There are some commands that it can accept over MQTT (offset in hours from UTC, reboot module, etc)
-# - “utc_offset.var” file sored on the Wemos D1 module is used to store consistant varibale on UTC offset value to be used.
-# - We can send texts to the clock through MQTT which will be displayes as static text (if the stirng is 8 charactors or less) or  as scrolling text ((if the string is more than 8 charactors) .In my case it displays the weather information perodically pushed to it through MQTT by a nodered instance.
-
-
+# At a high level the python script works as below:
+# – At startup fetches the time from the specified NTP server (I have a local NTP server, else we can give the IP Address of a public NTP server as well) and updates it’s internal real time clock (RTC) and displays time
+# – It also subscribes to the given MQTT topic
+# – Every 10 minutes syncs the internal real time clock (RTC) with the NTP server.
+# – If the Wifi, NTP or MQTT connections are failed, there will be an indication on the LED Matrix.
+# – There are some commands that it can accept over MQTT (offset in hours from UTC, reboot module, etc)
+# – “utc_offset.var” file sored on the Wemos D1 module is used to store consistent variable on UTC offset value to be used.
+# – We can send texts to the clock through MQTT which will be displays as static text (if the string is 8 characters or less) or  as scrolling text ((if the string is more than 8 characters). In my case it displays the weather information parodically pushed to it through MQTT by a Nodered instance.
 
 from machine import RTC
 import network
