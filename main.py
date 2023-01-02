@@ -11,7 +11,7 @@
 # – If the Wifi, NTP or MQTT connections are failed, there will be an indication on the LED Matrix.
 # – There are some commands that it can accept over MQTT (offset in hours from UTC, reboot module, etc)
 # – “utc_offset.var” file sored on the Wemos D1 module is used to store consistent variable on UTC offset value to be used.
-# – We can send texts to the clock through MQTT which will be displays as static text (if the string is 8 characters or less) or  as scrolling text ((if the string is more than 8 characters). In my case it displays the weather information parodically pushed to it through MQTT by a Nodered instance.
+# – We can send texts to the clock through MQTT which will be displays as static text (if the string is 8 characters or less) or  as scrolling text (if the string is more than 8 characters). In my case it displays the weather information parodically pushed to it through MQTT by a Nodered instance.
 
 from machine import RTC
 import network
