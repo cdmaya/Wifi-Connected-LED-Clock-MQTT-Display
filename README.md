@@ -1,5 +1,7 @@
 # Wifi-Connected-LED-Clock-MQTT-Display
 
+Project details also shared in my blog : https://www.chindemax.com/2023/01/02/wifi-connected-led-clock-mqtt-display/
+
 For some time, I wanted to buy several digital clocks with the following attributes
 
 Wouldn’t require setting time manually – NOT HAVING THIS ABILITY THIS IS THE DEALBREAKER !!! – IT MUST fetch time from an NTP server and set the internal clock accordingly and will sync with the NTP server periodically.
