@@ -71,7 +71,7 @@ At a high level the python script works as below:
 
 - “utc_offset.var” file sored on the Wemos D1 module is used to store consistent variable on UTC offset value to be used.
 
-- We can send texts to the clock through MQTT which will be displays as static text (if the string is 8 characters or less) or  as scrolling text ((if the string is more than 8 characters). In my case it displays the weather information parodically pushed to it through MQTT by a Nodered instance.
+- We can send texts to the clock through MQTT which will be displays as static text (if the string is 8 characters or less) or  as scrolling text (if the string is more than 8 characters). In my case it displays the weather information parodically pushed to it through MQTT by a Nodered instance.
 
 
 
