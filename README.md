@@ -4,6 +4,12 @@
 
 Project details also shared in my blog : https://www.chindemax.com/2023/01/02/wifi-connected-led-clock-mqtt-display/
 
+Thanks to below Github users: 
+1. "max7219.py" library file from Mike Causer's Github is used in this script.
+https://github.com/mcauser/micropython-max7219/blob/master/max7219.py
+2. "umqttsimple.py" library file from Rui Santos's Github is used in this script.
+https://github.com/RuiSantosdotme/ESP-MicroPython/blob/master/code/MQTT/umqttsimple.py
+
 For some time, I wanted to buy several digital clocks with the following attributes
 
 1. Wouldn’t require setting time manually – NOT HAVING THIS ABILITY THIS IS THE DEALBREAKER !!! – IT MUST fetch time from an NTP server and set the internal clock accordingly and will sync with the NTP server periodically.
